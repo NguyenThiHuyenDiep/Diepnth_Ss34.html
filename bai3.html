@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+       #form{
+            width:400px;
+            height: 350px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            background-color: white;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 20px;
+            border-radius: 7px;
+        }
+        .input{
+            width: 300px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            border-radius: 5px;
+            border: 1px solid rgb(166, 166, 166);
+        }
+        #button{
+            padding-bottom: 15px;
+            padding-top: 10px;
+            border-radius: 5px;
+            background-color: rgb(58, 120, 221);
+            color: white;
+            font-size: 15px;
+        }
+        body{
+            background-color: rgb(191, 191, 191);
+        }
+    </style>
+    <form id="form">
+        <h2>Login</h2>
+        <label for="email">Email:</label><br></br>
+        <input type="email" class="input"id="email" name="email"placeholder="Enter your email address"><br></br>
+        <label for="password">Password:</label><br></br>
+        <input type="password"class="input" id="pass" name="password" placeholder="Enter your password"><br></br>
+        <button id="button">Login</button>
+    </form>
+    <script src="bai3.js"></script>
+</body>
+</html>
